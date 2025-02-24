@@ -1,0 +1,22 @@
+.start {
+    padding: 5.6vw;
+    min-height: 80vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    @media (max-width:768px ) {
+        grid-template-columns: 1fr;
+    }
+
+    img {
+        width: 550px;
+        height: 600px;
+    }
+
+    &__title {
+        text-align: center;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+}

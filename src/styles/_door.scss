@@ -1,0 +1,19 @@
+
+
+.door{
+    padding: 5.6vw;
+    min-height: 80vw;
+
+    img {
+        max-width: 100%;
+    }
+
+    h1 {
+        margin-bottom: 28px;
+    }
+
+    &__container {
+        text-align: center;
+        margin-top: 80px;
+    }
+}
